@@ -1,0 +1,144 @@
+Đang dùng MockEmbedder. Score không phản ánh ngữ nghĩa thật.
+
+Đã nạp 21 chunks từ data\vinuni-library.
+
+================================================================================
+Q1: Với giáo trình tại phòng 111, được mượn tối đa bao nhiêu cuốn, trong bao lâu và được gia hạn thế nào?
+Gold document: student-textbook-borrowing
+Metadata filter: {'audience': 'student'}
+
+Top-1
+  doc_id : student-textbook-borrowing
+  chunk  : 2
+  score  : 0.0725
+  text   : heck-in trước khi trả. 2. Trả qua cán bộ phục vụ hoặc máy mượn trả tự động. 3. Kiểm tra tài khoản trước khi ra về.  ## Lưu ý  - Không cho người khác mượn thẻ và không sử dụng thẻ của người khác. - Giữ vệ sinh, trật tự; k...
+
+Top-2
+  doc_id : student-textbook-borrowing
+  chunk  : 0
+  score  : -0.0563
+  text   : # Quy trình mượn trả giáo trình phòng 111  ## Vị trí  Phòng 111 ở mặt sau Tòa nhà Thư viện Tạ Quang Bửu, đối diện Giảng đường D9.  ## Chính sách mượn  - Mỗi sinh viên được mượn tối đa 8 cuốn. - Thời hạn mượn là 90 ngày. ...
+
+Top-3
+  doc_id : student-textbook-borrowing
+  chunk  : 1
+  score  : -0.0626
+  text   : phục vụ mượn trả để thực hiện nghiệp vụ và vệ sinh kho sách.  ## Quy trình mượn  1. Tra cứu tài liệu tại http://libopac.hust.edu.vn/ để xác định ký hiệu và vị trí. 2. Dùng thẻ sinh viên hoặc ứng dụng iCTSV để check-in tr...
+
+Đánh giá: 1 điểm — top-2/top-3 có ngữ cảnh chứa đáp án.
+
+================================================================================
+Q2: Chính sách mượn sách tham khảo tại phòng 102 quy định số lượng, thời hạn và gia hạn như thế nào?
+Gold document: student-reference-book-borrowing
+Metadata filter: None
+
+Top-1
+  doc_id : library-account
+  chunk  : 2
+  score  : 0.3723
+  text   : mở lại trình duyệt.  ## Hỗ trợ  Email hỗ trợ tài khoản: `tvtqb@hust.edu.vn`....
+
+Top-2
+  doc_id : digital-resource-faq
+  chunk  : 1
+  score  : 0.1935
+  text   : . - Sinh viên HUST cũng có thể đăng nhập từ Cổng thông tin sinh viên: https://ctt.hust.edu.vn/  ## Quyền truy cập tài nguyên số  Cán bộ, giảng viên và người học tại HUST có thể:  - Tham khảo toàn văn tài liệu số trên tra...
+
+Top-3
+  doc_id : student-textbook-borrowing
+  chunk  : 2
+  score  : 0.1267
+  text   : heck-in trước khi trả. 2. Trả qua cán bộ phục vụ hoặc máy mượn trả tự động. 3. Kiểm tra tài khoản trước khi ra về.  ## Lưu ý  - Không cho người khác mượn thẻ và không sử dụng thẻ của người khác. - Giữ vệ sinh, trật tự; k...
+
+Đánh giá: 0 điểm — top-3 không chứa đủ thông tin trả lời.
+
+================================================================================
+Q3: Phòng học nhóm phục vụ vào thời gian nào và quy trình nhận trả chìa khóa ra sao?
+Gold document: group-study-room
+Metadata filter: None
+
+Top-1
+  doc_id : document-renewal
+  chunk  : 1
+  score  : 0.2335
+  text   : c: điện thoại `(024) 32215 3287`, email `tvtqb@hust.edu.vn`....
+
+Top-2
+  doc_id : service-hours
+  chunk  : 0
+  score  : 0.2278
+  text   : # Giờ phục vụ thư viện  ## Phòng đọc và phòng mượn  Các phòng đọc và phòng mượn phục vụ trong giờ hành chính từ Thứ Hai đến Thứ Sáu; Thứ Bảy, Chủ nhật và ngày lễ nghỉ.  - Buổi sáng: `08:00–12:00`. - Buổi chiều: `13:30–17...
+
+Top-3
+  doc_id : library-account
+  chunk  : 1
+  score  : 0.2128
+  text   : vn/ để xem thông tin tài khoản và giao dịch mượn tài liệu. Để đổi mật khẩu hoặc mã PIN, chọn **Thay đổi mật khẩu** trong menu bên trái, nhập mật khẩu cũ và mật khẩu mới hai lần rồi gửi.  ## Khắc phục lỗi đăng nhập  Nếu t...
+
+Đánh giá: 0 điểm — top-3 không chứa đủ thông tin trả lời.
+
+================================================================================
+Q4: Khi quên mật khẩu tài khoản thư viện, bạn đọc cần thực hiện các bước nào?
+Gold document: library-account
+Metadata filter: None
+
+Top-1
+  doc_id : digital-resource-faq
+  chunk  : 1
+  score  : 0.3936
+  text   : . - Sinh viên HUST cũng có thể đăng nhập từ Cổng thông tin sinh viên: https://ctt.hust.edu.vn/  ## Quyền truy cập tài nguyên số  Cán bộ, giảng viên và người học tại HUST có thể:  - Tham khảo toàn văn tài liệu số trên tra...
+
+Top-2
+  doc_id : student-textbook-borrowing
+  chunk  : 1
+  score  : 0.1666
+  text   : phục vụ mượn trả để thực hiện nghiệp vụ và vệ sinh kho sách.  ## Quy trình mượn  1. Tra cứu tài liệu tại http://libopac.hust.edu.vn/ để xác định ký hiệu và vị trí. 2. Dùng thẻ sinh viên hoặc ứng dụng iCTSV để check-in tr...
+
+Top-3
+  doc_id : library-account
+  chunk  : 0
+  score  : 0.1225
+  text   : # Hướng dẫn quản lý tài khoản bạn đọc  ## Reset mật khẩu  1. Truy cập https://libopac.hust.edu.vn/. 2. Chọn **Đăng nhập** ở góc trên bên phải. 3. Chọn **Quên mật khẩu / Quên mã PIN**. 4. Nhập mã số thẻ (MSCB hoặc MSSV) r...
+
+Đánh giá: 1 điểm — top-2/top-3 có ngữ cảnh chứa đáp án.
+
+================================================================================
+Q5: Bạn đọc ngoài HUST có thể đọc toàn văn tài nguyên số không và cần điều kiện gì?
+Gold document: digital-resource-faq
+Metadata filter: None
+
+Top-1
+  doc_id : group-study-room
+  chunk  : 1
+  score  : 0.2310
+  text   : dụng phòng học nhóm, quét mã QR hoặc đăng ký trực tiếp tại quầy phục vụ P411. 2. Liên hệ cán bộ tại P411 để nhận chìa khóa; xuất trình và để lại thẻ sinh viên hoặc thẻ cán bộ. 3. Trả chìa khóa sau khi sử dụng và nhận lại...
+
+Top-2
+  doc_id : digital-resource-faq
+  chunk  : 1
+  score  : 0.1724
+  text   : . - Sinh viên HUST cũng có thể đăng nhập từ Cổng thông tin sinh viên: https://ctt.hust.edu.vn/  ## Quyền truy cập tài nguyên số  Cán bộ, giảng viên và người học tại HUST có thể:  - Tham khảo toàn văn tài liệu số trên tra...
+
+Top-3
+  doc_id : service-hours
+  chunk  : 0
+  score  : 0.1444
+  text   : # Giờ phục vụ thư viện  ## Phòng đọc và phòng mượn  Các phòng đọc và phòng mượn phục vụ trong giờ hành chính từ Thứ Hai đến Thứ Sáu; Thứ Bảy, Chủ nhật và ngày lễ nghỉ.  - Buổi sáng: `08:00–12:00`. - Buổi chiều: `13:30–17...
+
+Đánh giá: 1 điểm — top-2/top-3 có ngữ cảnh chứa đáp án.
+
+================================================================================
+TỔNG ĐIỂM RETRIEVAL: 3/10
+
+################################################################################
+A/B TEST — Q1
+
+A. Có metadata_filter={'audience': 'student'}
+Top-1: doc_id=student-textbook-borrowing, score=0.0725
+Top-2: doc_id=student-textbook-borrowing, score=-0.0563
+Top-3: doc_id=student-textbook-borrowing, score=-0.0626
+
+B. Không dùng metadata filter
+Top-1: doc_id=group-study-room, score=0.2525
+Top-2: doc_id=digital-resource-faq, score=0.1901
+Top-3: doc_id=library-account, score=0.1708

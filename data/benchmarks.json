@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Q1",
+    "question": "Sinh viên được mượn tối đa bao nhiêu sách tham khảo ở phòng 102 và trong bao lâu?",
+    "metadata_filter": {"audience": "student"},
+    "gold_doc_id": "student-reference-book-borrowing",
+    "gold_answer": "Sinh viên được mượn tối đa 5 cuốn, trong thời hạn từ 1 đến 30 ngày và được gia hạn một lần trong 7 ngày."
+  },
+  {
+    "id": "Q2",
+    "question": "Sinh viên mượn giáo trình tại phòng 111 trong bao lâu?",
+    "metadata_filter": {"audience": "student"},
+    "gold_doc_id": "student-textbook-borrowing",
+    "gold_answer": "Thời hạn mượn là 90 ngày, được gia hạn một lần trong 30 ngày, tổng thời gian tối đa là 120 ngày."
+  },
+  {
+    "id": "Q3",
+    "question": "Làm thế nào để gia hạn tất cả tài liệu đã mượn?",
+    "metadata_filter": null,
+    "gold_doc_id": "document-renewal",
+    "gold_answer": "Đăng nhập tài khoản tại libopac.hust.edu.vn và chọn nút Gia hạn tất cả."
+  },
+  {
+    "id": "Q4",
+    "question": "Phòng học nhóm của thư viện phục vụ vào thời gian nào?",
+    "metadata_filter": null,
+    "gold_doc_id": "group-study-room",
+    "gold_answer": "Thứ Hai đến Thứ Sáu từ 08:00 đến 21:00; Thứ Bảy và Chủ nhật từ 08:00 đến 16:00."
+  },
+  {
+    "id": "Q5",
+    "question": "Dịch vụ cung cấp thông tin theo yêu cầu có miễn phí không và phục vụ ai?",
+    "metadata_filter": null,
+    "gold_doc_id": "information-on-demand",
+    "gold_answer": "Dịch vụ miễn phí cho cán bộ, giảng viên và sinh viên HUST."
+  }
+]
